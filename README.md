@@ -6,7 +6,7 @@ In this repository, you will find my solutions for the [halloween.dev](https://w
 
 1. [How to use](#how-to-use)
 2. [Result](#result)
-3. [List of challenges](#list-challenges)
+3. [List of challenges](#list-of-challenges)
 
 ## How to use
 
@@ -16,7 +16,7 @@ In the final section, you'll find solutions to the challenges. However, before d
 
 ![](/assets/result.png)
 
-## List Challenges
+## List of challenges
 
 |  #  | Title                                                                       | Difficulty | Score | Solution                |
 | :-: | :-------------------------------------------------------------------------- | :---- | :---: | :--------------------------: |
