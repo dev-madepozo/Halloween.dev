@@ -21,3 +21,4 @@ In the final section, you'll find solutions to the challenges. However, before d
 |  #  | Title                                                                       | Difficulty | Score | Solution                |
 | :-: | :-------------------------------------------------------------------------- | :---: | :---: | :--------------------------: |
 | 01  | 🧙‍♀️ [Create the perfect potion](https://www.halloween.dev/retos/2024/1)      | <img src="/assets/difficult.png" widht="20" height="20" />    | 470   | [code](/challenges/challenge01.js) |
+| 02  | 🧟 [Zombie horde](https://www.halloween.dev/retos/2024/2)      | <img src="/assets/difficult.png" widht="20" height="20" />    | 470   | [code](/challenges/challenge02.js) |
