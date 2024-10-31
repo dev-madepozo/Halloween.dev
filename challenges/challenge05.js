@@ -1,27 +1,26 @@
 function escapePyramidHead(room) {
   const size = room.length
-  const stringRoom = room.toString().replaceAll(',', '')
-  const startIndex = stringRoom.indexOf('▲')
-  const targetIndex = stringRoom.indexOf('T')
+  const stringRoom = room.join()
+  let startIndex = (stringRoom.indexOf('▲') / 2) | 0
+  let targetIndex = (stringRoom.indexOf('T') / 2) | 0 
 
   const directions = [[-1, 0], [1,0], [0, 1], [0, -1]]
 
-  const [startX, startY] = [~~(startIndex / size), startIndex % size]
-  const [targetX, targetY] = [~~(targetIndex / size), targetIndex % size]
+  const targetXY = `${~~(targetIndex / size)}${targetIndex % size}`
 
-  const paths = [[startX, startY, 0]]
+  const queue = [[~~(startIndex / size), startIndex % size, 0]]
 
-  while (paths.length) {
-    const [x, y, steps] = paths.shift()
+  while (queue.length) {
+    const [x, y, steps] = queue.shift()
 
-    if (x === targetX && y == targetY) return steps
+    if (`${x}${y}` === targetXY) return steps
 
     for (const [dx, dy] of directions) {
       const [newX, newY] = [x + dx, y + dy]
 
       if (room?.[newX]?.[newY] && room[newX][newY] != '#') {
         room[newX][newY] = '#'
-        paths.push([newX, newY, steps + 1])
+        queue.push([newX, newY, steps + 1])
       }
     }
   }
