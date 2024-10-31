@@ -1,4 +1,10 @@
-# Halloween.dev 2024
+<div align="center">
+
+![Hero image](/assets/hero.jpg)
+
+# My solutions to [Halloween.dev](https://www.halloween.dev/) 🎃
+
+</div>
 
 In this repository, you will find my solutions for the [halloween.dev](https://www.halloween.dev/) challenges created by [@midudev](https://midu.dev/)
 
