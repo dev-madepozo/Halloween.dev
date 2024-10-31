@@ -1,15 +1,8 @@
 function createMagicPotion(potions, target) {
-  const seen = new Map()
-
-  for (let [key, value] of potions.entries()) {
-    const complement = target - value;
-
-    if (seen.has(complement)) {
-      return [seen.get(complement), key]
-    }
-
-    seen.set(value, key);
+  const seen = {}
+  for (let [index, value] of potions.entries()) {
+    const complement = target - value
+    if (complement in seen) return [seen[complement], index]
+    seen[value] = index
   }
-
-  return undefined
 }
