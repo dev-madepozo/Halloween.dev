@@ -1,8 +1,8 @@
 function createMagicPotion(potions, target) {
   const seen = {}
-  for (let [index, value] of potions.entries()) {
-    const complement = target - value
-    if (complement in seen) return [seen[complement], index]
-    seen[value] = index
+  let i = 0
+  for (const value of potions) {
+    if (seen.hasOwnProperty(target - value)) return [seen[target - value], i]
+    seen[value] = i++
   }
 }
