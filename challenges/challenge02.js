@@ -1,8 +1,9 @@
 function battleHorde(zombies, humans) {
   let power = 0
+  let index = 0
 
-  for (let [key, value] of [...zombies].entries()) {
-    power += value - humans[key]
+  for (const humanPower of humans) {
+    power += zombies[index++] - humanPower
   }
 
   return `${Math.abs(power) || ''}${'xzh'.at(Math.sign(power))}`
