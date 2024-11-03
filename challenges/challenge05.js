@@ -8,10 +8,7 @@ function escapePyramidHead(room) {
   const paths = [[~~(startIndex / n), startIndex % n, 0]]
   const directions = [[-1, 0], [1,0], [0, 1], [0, -1]]
 
-
-  while (paths.length) {
-    const [x, y, steps] = paths.shift()
-
+  for (const [x, y, steps] of paths) {
     if (`${x}${y}` === targetXY) return steps
 
     for (const [dx, dy] of directions) {
