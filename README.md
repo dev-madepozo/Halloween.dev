@@ -20,7 +20,7 @@ In the final section, you'll find solutions to the challenges. However, before d
 
 ## Score
 
-![](/assets/score.png)
+<img src="/assets/score.png" style="border-radius: 24px" />
 
 ## List of challenges
 
