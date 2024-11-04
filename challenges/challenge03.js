@@ -6,10 +6,13 @@ function findSafestPath(dream) {
     j = 1
     const [, ...rest] = row
     for (const _ of rest) {
-      row[j] += Math.min(row[j - 1], dream[i - 1]?.[j] ?? Infinity)
+      row[j] += Math.min(
+        row[j - 1], `${dream[i - 1]?.[j]}`.replace('undefined', 100000)
+      )
       j++
     }
     i++
   }
+
   return dream[i - 1][j - 1]
 }
