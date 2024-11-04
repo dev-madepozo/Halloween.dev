@@ -5,18 +5,17 @@ function escapePyramidHead(room) {
   const targetIndex = flatten.indexOf('T')
   const targetXY = `${(targetIndex / n) | 0}${targetIndex % n}`
 
-  const paths = [[~~(startIndex / n), startIndex % n, 0]]
-  const directions = [[-1, 0], [1,0], [0, 1], [0, -1]]
+  const paths = [[(startIndex / n) | 0, startIndex % n, 0]]
+  const directions = [[-1, 0], [1,0], [0, -1], [0, 1]]
+  const AllowedMovements = {'.': 1, 'T': 1}
 
   for (const [x, y, steps] of paths) {
     if (`${x}${y}` === targetXY) return steps
 
     for (const [dx, dy] of directions) {
-      const [newX, newY] = [x + dx, y + dy]
-
-      if (room?.[newX]?.[newY] && room[newX][newY] != '#') {
-        room[newX][newY] = '#'
-        paths.push([newX, newY, steps + 1])
+      if (AllowedMovements[room[x + dx]?.[y + dy]]) {
+        room[x][y] = '#'
+        paths.push([x + dx, y + dy, steps + 1])
       }
     }
   }
