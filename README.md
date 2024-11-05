@@ -20,6 +20,8 @@ In the final section, you'll find solutions to the challenges. However, before d
 
 ## Score
 
+![Score](/assets/score.png)
+
 ## List of challenges
 
 |  #  | Title                                                                       | Difficulty | Score | Solution                |
