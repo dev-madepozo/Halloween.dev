@@ -10,11 +10,11 @@ In this repository, you will find my solutions for the [halloween.dev](https://w
 
 ### Table of content
 
-1. [How to use](#how-to-use)
+1. [Getting started](#getting-started)
 2. [Score](#score)
 3. [List of challenges](#list-of-challenges)
 
-## How to use
+## Getting started
 
 In the final section, you'll find solutions to the challenges. However, before diving in, I encourage you to attempt solving them on your own first. Once you've given it a try, you can compare your approaches with mine. This is a great way to enhance your algorithm skills, and best of all, it’s completely FREE!
 
