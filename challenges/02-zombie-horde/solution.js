@@ -1,3 +1,8 @@
+/**
+ * @param {string} zombies 
+ * @param {string} humans 
+ * @returns {string}
+ */
 function battleHorde(zombies, humans) {
   let power = 0
   let index = 0
@@ -8,3 +13,5 @@ function battleHorde(zombies, humans) {
 
   return `${Math.abs(power) || ''}${'xzh'.at(Math.sign(power))}`
 }
+
+module.exports = battleHorde
