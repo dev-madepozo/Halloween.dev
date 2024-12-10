@@ -1,0 +1,21 @@
+{
+  "name": "halloween.dev",
+  "description": "halloween.dev challenges",
+  "keywords": [
+    "halloween",
+    "dev",
+    "challenges",
+    "javascript",
+    "algorithms"
+  ],
+  "author": "Manuel Del Pozo",
+  "email": "madepozo.dev@gmail.com",
+  "license": "MIT",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
