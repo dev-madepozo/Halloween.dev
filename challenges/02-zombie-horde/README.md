@@ -1,5 +1,7 @@
 # Challenge #2: 🧟 Zombie horde
 
+## `Difficulty`
+
 ![easy](/assets/easy.png)
 
 ## Instructions
