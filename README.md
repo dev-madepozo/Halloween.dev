@@ -2,32 +2,55 @@
 
 ![Hero image](/assets/hero.jpg)
 
-# My solutions to [Halloween.dev](https://www.halloween.dev/) 🎃
+# 👻 [Halloween.dev 2024](https://www.halloween.dev/) 🎃
 
 </div>
 
-In this repository, you will find my solutions for the [halloween.dev](https://www.halloween.dev/) challenges created by [@midudev](https://midu.dev/)
+This repository contains my solutions to the [halloween.dev](https://www.halloween.dev/) challenges created by [@midudev](https://midu.dev/)
 
-### Table of content
+### Table of Contents
 
 1. [Getting started](#getting-started)
-2. [Score](#score)
-3. [List of challenges](#list-of-challenges)
+2. [Table of Challenges](#table-of-challenges)
+3. [How to Contribute](#how-to-contribute)
+4. [License](#list-of-challenges)
 
 ## Getting started
 
-In the final section, you'll find solutions to the challenges. However, before diving in, I encourage you to attempt solving them on your own first. Once you've given it a try, you can compare your approaches with mine. This is a great way to enhance your algorithm skills, and best of all, it’s completely FREE!
+To get started with this repository, follow these steps:
 
-## Score
+- Clone this repository
 
-![Score](/assets/score.png)
+  ```bash
+  git clone https://github.com/dev-madepozo/halloween.dev.git
+  ```
 
-## List of challenges
+- Navigate to the project directory:
 
-|  #  | Title                                                                       | Difficulty | Score | Solution                |
-| :-: | :-------------------------------------------------------------------------- | :---- | :---: | :--------------------------: |
-| 01  | 🧙‍♀️ [Create the perfect potion](https://www.halloween.dev/retos/2024/1)      | <img src="/assets/difficult.png" widht="20" height="20" />     | 470   | [code](/challenges/challenge01.js) |
-| 02  | 🧟 [Zombie horde](https://www.halloween.dev/retos/2024/2)                   | <img src="/assets/difficult.png" widht="20" height="20" />     | 570   | [code](/challenges/challenge02.js) |
-| 03  | 🛌 [Escape from Freddy's nightmare](https://www.halloween.dev/retos/2024/3) | <img src="/assets/difficult.png" widht="20" height="20" /> <img src="/assets/difficult.png" widht="20" height="20" /> | 490   | [code](/challenges/challenge03.js) |
-| 04  | 🔪 [Find the killer](https://www.halloween.dev/retos/2024/4)                | <img src="/assets/difficult.png" widht="20" height="20" /> <img src="/assets/difficult.png" widht="20" height="20" /> | 470   | [code](/challenges/challenge04.js) |
-| 05  | ▲  [Terror on Pyramid Head](https://www.halloween.dev/retos/2024/5)      | <img src="/assets/difficult.png" widht="20" height="20" /> <img src="/assets/difficult.png" widht="20" height="20" /> <img src="/assets/difficult.png" widht="20" height="20" />    | 430   | [code](/challenges/challenge05.js) |
+  ```bash
+  cd halloween.dev
+  ```
+
+- Navigate to the challenges directory to see each solution
+
+  ```bash
+  cd challenges
+  ```
+
+## Table of Challenges
+
+|  Challenge  | Title                                                                       | Difficulty                   | Score | Solution                           |
+| :---------: | :-------------------------------------------------------------------------- | :--------------------------- | :---: | :--------------------------------: |
+| #01         | 🧙‍♀️ [Create the perfect potion](https://www.halloween.dev/retos/2024/1)      | ![easy](/assets/easy.png)     | 470   | [view](/challenges/challenge01.js) |
+| #02         | 🧟 [Zombie horde](https://www.halloween.dev/retos/2024/2)                   | ![easy](/assets/easy.png)     | 570   | [view](/challenges/challenge02.js) |
+| #03         | 🛌 [Escape from Freddy's nightmare](https://www.halloween.dev/retos/2024/3) | ![normal](/assets/normal.png) | 490   | [view](/challenges/challenge03.js) |
+| #04         | 🔪 [Find the killer](https://www.halloween.dev/retos/2024/4)                | ![normal](/assets/normal.png) | 470   | [view](/challenges/challenge04.js) |
+| #05         | ▲  [Terror on Pyramid Head](https://www.halloween.dev/retos/2024/5)         | ![hard](/assets/hard.png)     | 430   | [view](/challenges/challenge05.js) |
+
+## How to Contribute
+
+If you'd like to contribute to this repository, feel free to fork it and submit a pull request with your suggestions or improvements.
+
+## License
+
+This repository is licensed under the MIT License.
