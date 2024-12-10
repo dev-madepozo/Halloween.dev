@@ -1,7 +1,7 @@
 const createMagicPotion = require("./solution")
 
 describe("Test Challenge: 🧙‍♀️ Create the perfect potion", () => {
-  test("Test #1: the return type should be array", () => {
+  test("Test #1: the return type should be an array", () => {
     expect(Array.isArray(createMagicPotion([4, 5, 6, 2], 8))).toBe(true)
   })
   

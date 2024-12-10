@@ -1,5 +1,6 @@
 # Challenge #1: 🧙‍♀️ Create the perfect potion
 
+## `Difficulty`
 ![easy](/assets/easy.png)
 
 ## Instructions
