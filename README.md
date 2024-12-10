@@ -22,7 +22,7 @@ To get started with this repository, follow these steps:
 - Clone this repository
 
   ```bash
-  git clone https://github.com/dev-madepozo/halloween.dev.git
+  git clone https://github.com/dev-madepozo/Halloween.dev.git
   ```
 
 - Navigate to the project directory:
