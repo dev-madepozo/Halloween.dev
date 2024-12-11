@@ -44,7 +44,7 @@ To get started with this repository, follow these steps:
 | #01         | 🧙‍♀️ [Create the perfect potion](https://www.halloween.dev/retos/2024/1)      | ![easy](/assets/easy.png)     | 470   | [view](/challenges/01-create-the-perfect-potion/) |
 | #02         | 🧟 [Zombie horde](https://www.halloween.dev/retos/2024/2)                   | ![easy](/assets/easy.png)     | 570   | [view](/challenges/02-zombie-horde/) |
 | #03         | 🛌 [Escape from Freddy's nightmare](https://www.halloween.dev/retos/2024/3) | ![normal](/assets/normal.png) | 490   | [view](/challenges/challenge03.js) |
-| #04         | 🔪 [Find the killer](https://www.halloween.dev/retos/2024/4)                | ![normal](/assets/normal.png) | 470   | [view](/challenges/challenge04.js) |
+| #04         | 🔪 [Find the killer](https://www.halloween.dev/retos/2024/4)                | ![normal](/assets/normal.png) | 470   | [view](/challenges/04-find-the-killer/) |
 | #05         | ▲  [Terror on Pyramid Head](https://www.halloween.dev/retos/2024/5)         | ![hard](/assets/hard.png)     | 430   | [view](/challenges/challenge05.js) |
 
 ## How to Contribute
