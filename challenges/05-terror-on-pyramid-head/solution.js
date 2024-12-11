@@ -34,3 +34,5 @@ function escapePyramidHead(room) {
 
   return -1
 }
+
+module.exports = escapePyramidHead
