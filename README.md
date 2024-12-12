@@ -36,6 +36,11 @@ To get started with this repository, follow these steps:
   ```bash
   cd challenges
   ```
+- To run the test, execute the following command
+
+  ```bash
+  npm run test
+  ```
 
 ## Table of Challenges
 
