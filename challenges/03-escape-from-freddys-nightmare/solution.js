@@ -16,3 +16,5 @@ function findSafestPath(dream) {
 
   return dream[i - 1][j - 1]
 }
+
+module.exports = findSafestPath
