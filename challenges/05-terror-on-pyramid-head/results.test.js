@@ -1,6 +1,6 @@
 const escapePyramidHead = require('./solution')
 
-describe("Test Challenge: ▲ Terror on Pyramid Head", () => {
+describe("Test Challenge #5: ▲ Terror on Pyramid Head", () => {
   test("Test #01: the return type should be a number", () => {
     const room = [
       ['.', '.', '#', '.', '▲'],
